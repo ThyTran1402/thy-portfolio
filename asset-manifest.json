@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thy-portfolio/static/css/main.18a5a97f.css",
-    "main.js": "/thy-portfolio/static/js/main.01da0076.js",
+    "main.js": "/thy-portfolio/static/js/main.b04165f0.js",
     "static/css/64.bba8fa55.chunk.css": "/thy-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1f7773c2.chunk.js": "/thy-portfolio/static/js/64.1f7773c2.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/thy-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -23,7 +23,7 @@
     "index.html": "/thy-portfolio/index.html",
     "static/media/talksCardBack.svg": "/thy-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.18a5a97f.css.map": "/thy-portfolio/static/css/main.18a5a97f.css.map",
-    "main.01da0076.js.map": "/thy-portfolio/static/js/main.01da0076.js.map",
+    "main.b04165f0.js.map": "/thy-portfolio/static/js/main.b04165f0.js.map",
     "64.bba8fa55.chunk.css.map": "/thy-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.1f7773c2.chunk.js.map": "/thy-portfolio/static/js/64.1f7773c2.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/thy-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.18a5a97f.css",
-    "static/js/main.01da0076.js"
+    "static/js/main.b04165f0.js"
   ]
 }
