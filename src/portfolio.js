@@ -374,7 +374,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Are you interested in collabrate with me? Let connect!",
-  number: "4256964214",
+  number: "4256864214",
   email_address: "ttmt.140201@gmail.com"
 };
 
