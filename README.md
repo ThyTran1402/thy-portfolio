@@ -1,3 +1,3 @@
-https://thytran1402.github.io/thy-portfolio/
+https://www.ttran142.com/
 
-Thy Tran's portfolio - 2024
+Thy Tran's portfolio - 2025
