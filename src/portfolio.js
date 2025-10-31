@@ -23,10 +23,10 @@ const greeting = {
   username: "Thy Tran",
   title: "Hi, I'm Thy Tran",
   subTitle: emoji(
-    "An aspiring Software Engineer who loves building end-to-end and impactful products that serve the community. I love building the bridge between the technology world and bussiness world 🚀. "
+    "An aspiring Software Engineer who loves building end-to-end and impactful products that scale and serve the community. I love solving complex problems, shipping products and making impacts to the world 🚀. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1mfVzsiwTUVMLQ-_WQyeIv7pxGyuDb-qx/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1HW9UrhpVc0DBOyVBlpTUgPH-BsDfbcwb/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/ThyTran1402",
   linkedin: "https://www.linkedin.com/in/thytran1402/",
-  gmail: "ttmt.140201@gmail.com",
+  gmail: "thytran.swe@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   instagram: "https://www.instagram.com/minhthy_tran/",
   //medium: "https://medium.com/@saadpasta",
@@ -52,9 +52,9 @@ const skillsSection = {
   subTitle: "Skillset",
   skills: [
     emoji(
-      "⚡ Developer with experience in Full Stack developement with React.js, Node.js, MongoDB, Ruby on Rails, Python, mySQL"
+      "⚡ Developer with experience in Full Stack developement with React.js, Node.js, MongoDB, Ruby on Rails, Python, mySQL, PostgreSQL, Redis, Java"
     ),
-    emoji("⚡ Currently learning and growing my skillsets in TensorFlow, AWS, Kubernetes, Go"),
+    emoji("⚡ Currently learning and growing my skillsets in AI/ML, Cloud Infrastructure, AWS, Kubernetes, Go"),
     emoji(
       "⚡ Intrested in solving real-world problems that can use technology to make life easier"
     )
@@ -130,7 +130,7 @@ const educationInfo = {
       logo: require("./assets/images/usf.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2021 - May 2025",
-      desc: "I have taken varity of courses in Computer Science: Data Structures, Algorithms, Operating Systems, Database Design, Software Engineering",
+      desc: "I have taken varity of courses in Computer Science: Data Structures, Analysis of Algorithms, Operating Systems, Database Design, Software Engineering",
       descBullets: [
         
       ]
@@ -149,11 +149,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -165,11 +165,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Enineer",
+      company: "Kogna AI",
+      companylogo: require("./assets/images/kogna_ai.png"),
+      date: "Sept 2025 – Present",
+      desc: "Built a business intelligence platform for managers, executives make faster, smarter, and accurate decisions.",
+      
+    },
+    {
       role: "Research Assisant",
       company: "University of South Florida",
       companylogo: require("./assets/images/usf.png"),
-      date: "June 2023 – Present",
-      desc: "I developed a learning platform that enables 300 college students to watch Haptics lectures on their own schedules, achieving 81% rating. I built web interface from scratch by leveraging React.js and BigBlueButton open-source virtual classroom software used, creating a friendly and easy-to-use platform used by USF and Johns Hopkins University students.",
+      date: "June 2023 – Dec 2024",
+      desc: "Developed a learning platform that enables 300 college students to watch Haptics lectures on their own schedules, achieving 81% rating. I built web interface from scratch by leveraging React.js and BigBlueButton open-source virtual classroom software used, creating a friendly and easy-to-use platform used by USF and Johns Hopkins University students.",
       // descBullets: [
         
       // ]
@@ -179,14 +187,14 @@ const workExperiences = {
       company: "Avocademy",
       companylogo: require("./assets/images/Avocademy.png"),
       date: "June 2022 – August 2022",
-      desc: "I Developed a dashboard to automate job application for Avocademy’s students using Next.js and TailwindCSS. Utilized web bundles to boost performance, reducing page load time by 20% and decreasing JavaScript bundles size by 25%."
+      desc: "Implemented a dashboard to automate job application for Avocademy’s students using Next.js and TailwindCSS. Utilized web bundles to boost performance, reducing page load time by 20% and decreasing JavaScript bundles size by 25%."
     },
     {
       role: "Software Engineering Intern",
       company: "FPT Software ",
       companylogo: require("./assets/images/fpt_software.jpg"),
       date: "Jan 2021 – June 2021",
-      desc: "I tested a laboratory real-time monitoring web application for PHCbi built on microservices structure using Spring framework, identified 15 bugs in initial testing"
+      desc: "Tested a laboratory real-time monitoring web application for PHCbi built on microservices structure using Spring framework, identified 15 bugs in initial testing"
     }
   ]
 };
@@ -208,7 +216,7 @@ const bigProjects = {
     {
       image: require("./assets/images/carbonator.webp"),
       projectName: "Carbonator",
-      projectDesc: "I collaborated in a team of 4 to implement the smart greenhouse plant by training and analyzing machine learning models to classify the crops and plants with 85% accuracy.\n First place team won the State Farm’s Good Neighbor Challenge.",
+      projectDesc: "Collaborated in a team of 4 to implement the smart greenhouse plant by training and analyzing machine learning models to classify the crops and plants with 85% accuracy.\n First place team won the State Farm’s Good Neighbor Challenge.",
       footerLink: [
         {
           name: "Visit Website",
@@ -230,13 +238,13 @@ const bigProjects = {
     },
 
     {
-      //image: require("./assets/images/remind_me.png"),
-      projectName: "Movie Collection",
-      projectDesc: "I implemented an interactive web application allowing users to search 300+ movies by category, genre, watch trailers, and view cast information\n. Developed the front end with React.js, Redux, and Material UI",
+      image: require("./assets/images/crypto_enthusiast.png"),
+      projectName: "Crypto Enthusiast",
+      projectDesc: "Built a crypto web app allows to help users explore and learn about the vast world of cryptocurrencies in an engaging, interactive way",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/ThyTran1402/movie_collection"
+          url: "https://github.com/ThyTran1402/Crypto-Enthusiast"
         }
       ]
     }
@@ -375,7 +383,7 @@ const contactInfo = {
   subtitle:
     "Are you interested in collabrate with me? Let connect!",
   number: "4256864214",
-  email_address: "ttmt.140201@gmail.com"
+  email_address: "thytran.swe@gmail.com"
 };
 
 // Twitter Section
