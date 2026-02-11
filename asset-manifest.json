@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2dbe8ad0.css",
-    "main.js": "/static/js/main.d0652950.js",
+    "main.js": "/static/js/main.2c2ca824.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1f7773c2.chunk.js": "/static/js/64.1f7773c2.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/crypto_enthusiast.png": "/static/media/crypto_enthusiast.9b7fc2b729dfd18d7107.png",
     "static/media/remind_me.png": "/static/media/remind_me.1f1b5600af587be14353.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/static/media/resume.414852dade4db2883aee.pdf",
+    "static/media/resume.pdf": "/static/media/resume.edb5ce1046a574c2e332.pdf",
     "static/media/kogna_ai.png": "/static/media/kogna_ai.b2dad9194646ca1dd654.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -25,7 +25,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2dbe8ad0.css.map": "/static/css/main.2dbe8ad0.css.map",
-    "main.d0652950.js.map": "/static/js/main.d0652950.js.map",
+    "main.2c2ca824.js.map": "/static/js/main.2c2ca824.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.1f7773c2.chunk.js.map": "/static/js/64.1f7773c2.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.2dbe8ad0.css",
-    "static/js/main.d0652950.js"
+    "static/js/main.2c2ca824.js"
   ]
 }
